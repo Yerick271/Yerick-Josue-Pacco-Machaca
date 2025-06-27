@@ -2,14 +2,22 @@
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #fff; /* opcional: puedes mantener el fondo blanco dentro */
-    border-radius: 10px;     /* opcional: bordes redondeados */
-    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* opcional: sombra suave */
+    border-radius: 10px;
+    background-color: #fff; /*color para fondo */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* sombra suave */
 }
 
-/* Centra títulos y listas si deseas */
+/* Centrar titulos y listas */
 h1 {
     text-align: center;
 }
 
+/* Recuadros para cada seccion individual */
+.seccion {
+    background-color: #D2EDE4  ; /* color base */ 
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
